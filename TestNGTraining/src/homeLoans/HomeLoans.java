@@ -6,6 +6,9 @@ public class HomeLoans {
 	@Test
 	public void webHomeLoan() {
 		System.out.println("Web Home Loan");
+		System.out.println("Web Home Loan2");
+		System.out.println("Web Home Loan3");
+
 	}
 	
 	@Test
