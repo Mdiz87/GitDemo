@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-04T13:22:09 CEST" name="Suite" finished-at="2025-06-04T13:22:09 CEST" duration-ms="71">
+  <suite started-at="2025-07-13T14:55:02 CEST" name="Suite" finished-at="2025-07-13T14:55:02 CEST" duration-ms="28">
     <groups>
     </groups>
-    <test started-at="2025-06-04T13:22:09 CEST" name="Car Loans" finished-at="2025-06-04T13:22:09 CEST" duration-ms="32">
-      <class name="TestNG.Introduction">
-        <test-method signature="demo()[pri:0, instance:TestNG.Introduction@2d7275fc]" started-at="2025-06-04T13:22:09 CEST" name="demo" finished-at="2025-06-04T13:22:09 CEST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method signature="demo2()[pri:0, instance:TestNG.Introduction@2d7275fc]" started-at="2025-06-04T13:22:09 CEST" name="demo2" finished-at="2025-06-04T13:22:09 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo2 -->
-      </class> <!-- TestNG.Introduction -->
-      <class name="TestNG.CarLoans">
-        <test-method signature="APICarLoan()[pri:0, instance:TestNG.CarLoans@1189dd52]" started-at="2025-06-04T13:22:09 CEST" name="APICarLoan" finished-at="2025-06-04T13:22:09 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APICarLoan -->
-        <test-method signature="mobileCarLoan()[pri:0, instance:TestNG.CarLoans@1189dd52]" started-at="2025-06-04T13:22:09 CEST" name="mobileCarLoan" finished-at="2025-06-04T13:22:09 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileCarLoan -->
-      </class> <!-- TestNG.CarLoans -->
-    </test> <!-- Car Loans -->
-    <test started-at="2025-06-04T13:22:09 CEST" name="Home Loans" finished-at="2025-06-04T13:22:09 CEST" duration-ms="2">
+    <test started-at="2025-07-13T14:55:02 CEST" name="Car Loans" finished-at="2025-07-13T14:55:02 CEST" duration-ms="28">
       <class name="homeLoans.HomeLoans">
-        <test-method signature="mobileHomeLoan()[pri:0, instance:homeLoans.HomeLoans@408d971b]" started-at="2025-06-04T13:22:09 CEST" name="mobileHomeLoan" finished-at="2025-06-04T13:22:09 CEST" duration-ms="0" status="PASS">
+        <test-method signature="APIhomeLoan()[pri:0, instance:homeLoans.HomeLoans@9597028]" started-at="2025-07-13T14:55:02 CEST" name="APIhomeLoan" finished-at="2025-07-13T14:55:02 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIhomeLoan -->
+        <test-method signature="mobileHomeLoan()[pri:0, instance:homeLoans.HomeLoans@9597028]" started-at="2025-07-13T14:55:02 CEST" name="mobileHomeLoan" finished-at="2025-07-13T14:55:02 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileHomeLoan -->
+        <test-method signature="webHomeLoan()[pri:0, instance:homeLoans.HomeLoans@9597028]" started-at="2025-07-13T14:55:02 CEST" name="webHomeLoan" finished-at="2025-07-13T14:55:02 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webHomeLoan -->
       </class> <!-- homeLoans.HomeLoans -->
-    </test> <!-- Home Loans -->
+    </test> <!-- Car Loans -->
   </suite> <!-- Suite -->
 </testng-results>
